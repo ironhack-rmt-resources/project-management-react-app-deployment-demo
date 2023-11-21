@@ -9,10 +9,6 @@ import ProjectDetailsPage from "./pages/ProjectDetailsPage";
 import EditProjectPage from "./pages/EditProjectPage";
 
 function App() {
-
-  const amount = 42;
-  amount = 30;
-
   return (
     <div className="App">
       
