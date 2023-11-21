@@ -25,7 +25,7 @@ function EditProjectPage() {
         setDescription(oneProject.description);
       })
       .catch((error) => console.log(error));
-  }, []);
+  }, [projectId]);
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
