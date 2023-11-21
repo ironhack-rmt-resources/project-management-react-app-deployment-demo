@@ -31,7 +31,7 @@ function ProjectListPage() {
       </Link>     
       
         {projects.map((project) => (
-          <ProjectCard key={project.id} {...project} />
+          <ProjectCard {...project} />
         ))}     
        
     </div>
