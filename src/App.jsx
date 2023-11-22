@@ -11,17 +11,10 @@ import { useState } from 'react';
 
 function App() {
 
-  const [movies, setMovies] = useState();
-
   return (
     <div className="App">
       
       <Navbar />
-
-      { movies.map( movie => {
-        return <p>this is a movie</p>
-      }) }
-
 
       <Routes>
         <Route path="/" element={ <HomePage /> } />
